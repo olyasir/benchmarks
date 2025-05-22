@@ -2,6 +2,10 @@
 layout: result
 title: Model B Benchmark Results
 date: 2024-03-20
+version: 1.0
+accuracy: 93.8%
+latency: 95ms
+throughput: 920 req/s
 ---
 
 # Model B Performance Results

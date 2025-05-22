@@ -2,6 +2,10 @@
 layout: result
 title: Model A Benchmark Results
 date: 2024-03-20
+version: 1.0
+accuracy: 95.2%
+latency: 120ms
+throughput: 850 req/s
 ---
 
 # Model A Performance Results
