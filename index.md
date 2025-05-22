@@ -12,6 +12,8 @@ This site contains benchmark results for various models. Below you'll find the l
 Debug info:
 - Number of results: {{ site.results | size }}
 - Results files: {% for result in site.results %}{{ result.path }}, {% endfor %}
+- Collection dir: {{ site.collections.results.directory }}
+- Collection files: {% for file in site.collections.results.files %}{{ file.path }}, {% endfor %}
 
 {% assign sorted_results = site.results | sort: 'date' | reverse %}
 {% for result in sorted_results %}
