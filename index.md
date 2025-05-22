@@ -9,6 +9,10 @@ This site contains benchmark results for various models. Below you'll find the l
 
 ## Latest Results
 
+Debug info:
+- Number of results: {{ site.results | size }}
+- Results files: {% for result in site.results %}{{ result.path }}, {% endfor %}
+
 {% assign sorted_results = site.results | sort: 'date' | reverse %}
 {% for result in sorted_results %}
 ### [{{ result.title }}]({{ site.baseurl }}/results/{{ result.name }})
