@@ -17,7 +17,7 @@ Debug info:
 
 {% assign sorted_results = site.results | sort: 'date' | reverse %}
 {% for result in sorted_results %}
-### [{{ result.title }}]({{ site.baseurl }}/results/{{ result.name }})
+### [{{ result.title }}]({{ site.baseurl }}{{ result.url }})
 - **Date:** {{ result.date | date: "%B %d, %Y" }}
 - **Model Version:** {{ result.version | default: "1.0" }}
 - **Key Metrics:**
