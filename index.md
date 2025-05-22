@@ -10,7 +10,7 @@ This site contains benchmark results for various models. Below you'll find the l
 ## Latest Results
 
 {% for result in site.results %}
-### [{{ result.title }}]({{ result.url }})
+### [{{ result.title }}]({{ site.baseurl }}/results/{{ result.name }})
 - **Date:** {{ result.date | date: "%B %d, %Y" }}
 - **Model Version:** {{ result.version | default: "1.0" }}
 - **Key Metrics:**
