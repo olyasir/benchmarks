@@ -8,7 +8,7 @@ latency: 95ms
 throughput: 920 req/s
 ---
 
-# Model Whisper Results
+# Whisper Performance Results
 
 ## Overview
 - Model: Whisper
@@ -24,4 +24,4 @@ throughput: 920 req/s
 | Throughput | 920 req/s |
 
 ## Detailed Analysis
-This model demonstrates excellent latency and throughput performance, with slightly lower accuracy compared to Marian. 
+Whisper demonstrates excellent latency and throughput performance, with slightly lower accuracy compared to Marian. 

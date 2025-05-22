@@ -24,4 +24,4 @@ throughput: 850 req/s
 | Throughput | 850 req/s |
 
 ## Detailed Analysis
-This model shows strong performance in accuracy while maintaining reasonable latency and throughput metrics. 
+Marian shows strong performance in accuracy while maintaining reasonable latency and throughput metrics. 
