@@ -15,11 +15,13 @@ collections:
   results:
     output: true
     permalink: /results/:name/
+    sort_by: date
+    sort_order: reverse
 
 # Defaults
 defaults:
   - scope:
-      path: ""
+      path: "results"
       type: "results"
     values:
       layout: "result" 

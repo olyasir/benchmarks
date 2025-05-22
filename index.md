@@ -9,7 +9,8 @@ This site contains benchmark results for various models. Below you'll find the l
 
 ## Latest Results
 
-{% for result in site.results %}
+{% assign sorted_results = site.results | sort: 'date' | reverse %}
+{% for result in sorted_results %}
 ### [{{ result.title }}]({{ site.baseurl }}/results/{{ result.name }})
 - **Date:** {{ result.date | date: "%B %d, %Y" }}
 - **Model Version:** {{ result.version | default: "1.0" }}
