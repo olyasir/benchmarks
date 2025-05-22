@@ -17,7 +17,6 @@ collections:
     permalink: /results/:name/
     sort_by: date
     sort_order: reverse
-    directory: _results
 
 # Defaults
 defaults:
