@@ -6,6 +6,7 @@ version: 1.0
 accuracy: 93.8%
 latency: 95ms
 throughput: 920 req/s
+category: benchmarks
 ---
 
 # Whisper Performance Results

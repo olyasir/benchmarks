@@ -6,6 +6,7 @@ version: 1.0
 accuracy: 95.2%
 latency: 120ms
 throughput: 850 req/s
+category: benchmarks
 ---
 
 # Marian Performance Results

@@ -24,4 +24,14 @@ defaults:
       path: "results"
       type: "results"
     values:
-      layout: "result" 
+      layout: "result"
+      category: "benchmarks"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - .github 
