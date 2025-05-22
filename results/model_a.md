@@ -8,10 +8,10 @@ latency: 120ms
 throughput: 850 req/s
 ---
 
-# Model A Performance Results
+# Marian Performance Results
 
 ## Overview
-- Model: Model A
+- Model: Marian
 - Version: 1.0
 - Test Date: March 20, 2024
 

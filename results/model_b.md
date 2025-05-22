@@ -8,10 +8,10 @@ latency: 95ms
 throughput: 920 req/s
 ---
 
-# Model B Performance Results
+# Model Whisper Results
 
 ## Overview
-- Model: Model B
+- Model: Whisper
 - Version: 1.0
 - Test Date: March 20, 2024
 
